@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { GeistMono } from 'geist/font/mono';
 import { GeistSans } from 'geist/font/sans';
-import { Analytics } from '@vercel/analytics/react';
 import { Toaster } from '@/components/ui/toaster';
 import './globals.css';
 
@@ -70,7 +69,6 @@ export default function RootLayout({
             </div>
           </Providers>
         </AI>
-        <Analytics />
       </body>
     </html>
   );
